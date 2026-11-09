@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    border-top: 1px solid white;
+    border-right:  0.5px solid rgb(243, 237, 237);
+}
+.Home,.Explore,.Subscription,.Originals,.Youtube-music,.Library{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.home,.explore,.subscription,.originals,.youtube-music,.library{
+    height: 25px;
+}
+.home{
+    padding-top: 10px;
+}
+.Home,.Explore,.Subscription,.Originals,.Youtube-music,.Library p{
+    font-size: 11px;
+    font-weight: 450;
+}
+.Home:hover,.Explore:hover,.Subscription:hover,.Originals:hover,.Youtube-music:hover,.Library:hover{
+     background-color: lightgray;
+    opacity: 0.8;
+}
